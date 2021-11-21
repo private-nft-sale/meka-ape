@@ -20,7 +20,7 @@ window.addEventListener("load", () => updateUI())
 
 const updateUI = () => {
     if (ethereum.selectedAddress) {
-        button.innerHTML = "Buy Now!";
+        button.innerHTML = "Mint";
         input.style.display = "block";
     }
     else if (ethereum.isMetaMask) {
